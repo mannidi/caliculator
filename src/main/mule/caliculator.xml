@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="caliculatorFlow" doc:id="5d892ada-dfe6-4ce2-971a-998c7e4c48e2" >
 		<http:listener doc:name="Listener" doc:id="dde98e5b-5cd7-4e3e-a544-0799255d4316" config-ref="HTTP_Listener_config" path="/test"/>
-		<logger level="INFO" doc:name="Logger" doc:id="2fd1d496-b70c-498f-aad1-686cdd91705d" message="test srinivas"/>
+		<logger level="INFO" doc:name="Logger" doc:id="2fd1d496-b70c-498f-aad1-686cdd91705d" message="test srinivas kumar"/>
 	</flow>
 </mule>
